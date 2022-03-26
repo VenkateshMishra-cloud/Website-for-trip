@@ -1,0 +1,63 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    width: 100%;
+
+}
+
+.container{
+    max-width: 80%;
+    padding: 34px;
+    margin: auto;
+
+}
+
+.container h3, p{ 
+    text-align: center;
+}
+h3{
+    font-size: 30px;
+}
+
+p{
+    font-size: 24px;
+}
+
+input{
+    font-size: 20px;
+    width: 100%;
+    margin: 13px;
+    border: 2px solid black;
+}
+
+textarea{
+    height: 150px;
+    font-size: 20px;
+    width: 100%;
+    margin: 13px;
+    border: 2px solid black;
+}
+
+form{
+    display: flex;
+    align-items: center;
+    flex-direction:  column;
+}
+.btn{
+    border: solid white;
+    padding: 8px 10px;
+    font-size: 20px;
+    width: 20%;
+    background-color: burlywood;
+    border-radius: 14px;
+    cursor: pointer;
+}
+
+.image{
+    height:800px;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.5;
+}
